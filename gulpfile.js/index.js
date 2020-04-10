@@ -1,5 +1,5 @@
 const fs = require("fs-extra");
-const git = require('git-rev-sync')
+const G = require('git-rev-sync')
 function arrange(cb) {
   fs.readdir("./answer", function (err, files) {
     if (err) throw err;
@@ -9,16 +9,25 @@ function arrange(cb) {
     cb()
   });
 }
-function gitG(cb) {
-    console.log(git.short());
-console.log(git.long());
-console.log(git.branch());
+function git(cb) {
+    // console.log(G.branch());
+    // console.log(G.count());
+    // console.log(G.date());
+    // console.log(G.hasUnstagedChanges());
+    // console.log(G.isDirty());
+    // console.log(G.isTagDirty());
+    console.log(G.log());
+    // console.log(G.long());
+    // console.log(G.message());
+    // console.log(G.remoteUrl());
+    // console.log(G.short());
+    // console.log(G.tag());
+    // console.log(G.tagFirstParent());
   cb()
 }
 
-
 exports.arrange = arrange;
-exports.gitG = gitG;
+exports.git = git;
 
 // (async () => {
 //     const paths = await globby(['*', '!cake']);
