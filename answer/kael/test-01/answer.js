@@ -3,8 +3,7 @@
  * @return {string}
  */
 var reverseWords = function(s) {
-    
-    
+    console.log(1+1)
 };
 
 // 解题思路
