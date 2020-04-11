@@ -2,11 +2,15 @@
  * answer：解题
  * chore：日常
  * config：配置，架构
+ * arrange：发放题目
+ * log：收集打卡日志
  */
 const types = [
     "answer",
     "chore",
     "config",
+    "arrange",
+    "log",
   ];
   
   typeEnum = {
