@@ -10,3 +10,7 @@
     * 在项目root/answer/下建立自己的个人文件夹，后续完成作业均在个人文件夹内完成。文件夹名称需要跟群昵称相同，否则无法正确统计打卡签到记录。
     * 后续委员会成员会发送题到个人文件夹中，请在发放题目后git fetch。拿到题目后，做完请记得提交push。
 
+### 开发指南
+* git config --local user.name 'username' 修改git username
+* npm i  安装comimitlint插件
+* git commit -m 'answer: 01-xxx'  提交最终解题内容的commit格式，其它无关紧要的提交请用 chore: xxxx
