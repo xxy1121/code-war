@@ -1,8 +1,8 @@
 /**
- * @param {number[]} nums
- * @return {number}
+ * @param {string} s
+ * @return {string}
  */
-var maxSubArray = function(nums) {
+var replaceSpace = function(s) {
 
 };
 
