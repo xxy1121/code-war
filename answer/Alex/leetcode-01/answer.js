@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 /**
  * @param {number[]} nums
  * @return {number}
@@ -6,7 +6,7 @@
 var maxSubArray = function(nums) {
 	// 解题思路
 	// 1、寻找所有正数出现的位置
-	// 2、寻找最后一个正数
+	// 2、寻找这个正数所能得到的最大和
 	var start = end = temp = -1, sum = nums[0];
 	for(let i = 0; i < nums.length; i ++){
 		// 考虑全为负数的情况
@@ -21,6 +21,3 @@ var maxSubArray = function(nums) {
 	}
 	return sum;
 };
-var test = [2,1,3,4,1,2,1,5,4];
-console.log(maxSubArray(test));
-</script>
