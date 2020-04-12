@@ -1,47 +1,134 @@
 [
     {
-        "name": "FU½",
+        "name": "zlx",
         "active": true,
-        "clean": false
-    },
-    {
-        "name": "kael",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "LetterMumu",
-        "active": true,
+        "nickname": "小村儿",
         "clean": false
     },
     {
         "name": "lyxsunner",
         "active": true,
-        "clean": false
-    },
-    {
-        "name": "moling3650",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "Q1173419450",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "zxl",
-        "active": true,
+        "nickname": "PRGD18号",
         "clean": false
     },
     {
         "name": "Lilian97",
         "active": true,
+        "nickname": "小团子",
         "clean": false
     },
     {
-        "name": "zhangdongming",
+        "name": "LetterMumu",
         "active": true,
+        "nickname": "肉松小贝",
+        "clean": false
+    },
+    {
+        "name": "SaberArthur",
+        "active": true,
+        "nickname": "剑起生寒轻酌墨",
+        "clean": false
+    },
+    {
+        "name": "wxx2258",
+        "active": true,
+        "nickname": "阿星",
+        "clean": false
+    },
+    {
+        "name": "Q1173419450",
+        "active": true,
+        "nickname": "陈小渣👻",
+        "clean": false
+    },
+    {
+        "name": "chenzhihaolqm",
+        "active": true,
+        "nickname": "chenzhihaolqm",
+        "clean": false
+    },
+    {
+        "name": "cnsummer",
+        "active": true,
+        "nickname": "茄子",
+        "clean": false
+    },
+    {
+        "name": "Xchen1995",
+        "active": true,
+        "nickname": "陈旭",
+        "clean": false
+    },
+    {
+        "name": "wanni-yang",
+        "active": true,
+        "nickname": "杨小咩",
+        "clean": false
+    },
+    {
+        "name": "eilis-jung",
+        "active": true,
+        "nickname": "Eilis",
+        "clean": false
+    },
+    {
+        "name": "zhangdongming0607",
+        "active": true,
+        "nickname": "张三",
+        "clean": false
+    },
+    {
+        "name": "KevinBlack",
+        "active": true,
+        "nickname": "FU½",
+        "clean": false
+    },
+    {
+        "name": "learnRy",
+        "active": true,
+        "nickname": "(ಡωಡ)hahaha",
+        "clean": false
+    },
+    {
+        "name": "zer0fire",
+        "active": true,
+        "nickname": "zer0fire",
+        "clean": false
+    },
+    {
+        "name": "moling3650",
+        "active": true,
+        "nickname": "墨灵",
+        "clean": false
+    },
+    {
+        "name": "nsuedu",
+        "active": true,
+        "nickname": "古月",
+        "clean": false
+    },
+    {
+        "name": "hankzhuo",
+        "active": true,
+        "nickname": "🐮🍺",
+        "clean": false
+    },
+    {
+        "name": "gaoxuerong",
+        "active": true,
+        "nickname": "gaoxuerong",
+        "clean": false
+    },
+    {
+        "name": "tingPigOne",
+        "active": true,
+        "nickname": "潜渊",
+        "clean": false
+    },
+    {
+        "name": "kael",
+        "active": true,
+        "nickname": "卡尔",
         "clean": false
     }
 ]
