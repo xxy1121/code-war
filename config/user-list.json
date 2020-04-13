@@ -136,5 +136,41 @@
         "active": true,
         "nickname": "wendraw",
         "clean": false
+    },
+    {
+        "name": "mosiya",
+        "active": true,
+        "nickname": "雅仔",
+        "clean": false
+    },
+    {
+        "name": "returnMaize",
+        "active": true,
+        "nickname": "function",
+        "clean": false
+    },
+    {
+        "name": "Cangyang",
+        "active": true,
+        "nickname": "Alex",
+        "clean": false
+    },
+    {
+        "name": "chimyking",
+        "active": true,
+        "nickname": "chimyking",
+        "clean": false
+    },
+    {
+        "name": "hetchzhao",
+        "active": true,
+        "nickname": "何麒",
+        "clean": false
+    },
+    {
+        "name": "zack",
+        "active": true,
+        "nickname": "青年阿翟",
+        "clean": false
     }
 ]
