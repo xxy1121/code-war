@@ -3,7 +3,14 @@
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
+    let wordArr = s.split(' ').filter(item => item)
+    return wordArr.length > 0 ? wordArr[wordArr.length - 1].length : 0
+};
 
+var lengthOfLastWord = function(s) {
+    s = s.trim()
+    const index = s.lastIndexOf(' ')
+    return s.length - (index + 1)
 };
 
 // 解题思路
