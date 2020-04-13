@@ -136,5 +136,11 @@
         "active": true,
         "nickname": "wendraw",
         "clean": false
+    },
+     {
+        "name": "chimyking",
+        "active": true,
+        "nickname": "chimyking",
+        "clean": false
     }
 ]
