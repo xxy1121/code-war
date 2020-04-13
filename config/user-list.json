@@ -130,5 +130,11 @@
         "active": true,
         "nickname": "卡尔",
         "clean": false
+    },
+    {
+        "name": "wendraw",
+        "active": true,
+        "nickname": "wendraw",
+        "clean": false
     }
 ]
