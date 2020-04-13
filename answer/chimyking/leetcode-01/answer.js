@@ -2,9 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxSubArray = function(nums) {
-
-};
+var maxSubArray = function(nums) {}
 
 // 解题思路
 // isEmpty 未完题目请勿删除此行
