@@ -1,14 +1,14 @@
 ### 本群总则 挑战一下
 
-1. [53 题 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
-2. [58 题 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
-3. [05 题 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+1. [53-最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+2. [58-最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
+3. [05-替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
 
 欢迎挑战
 
 ### 打卡刷题策略
 
-- **强调: config 下的 user-list.json 不能随意修改，这文件是我们同学的通过命令自动生成。**
+- **强调: /config/user-list.json 不能随意修改，这文件是我们同学的通过命令自动生成。**
 - 题目由群内委员会来发放，一周发三题。
 - 通过提交 github 来完成作业，委员会值班员会通过 gulp 任务扫描提交时间来判断是否在打卡时间内成功打卡。
 - 名词定义：
