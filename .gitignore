@@ -2,6 +2,7 @@ node_modules
 .DS_Store
 gulpfile.js/**.js
 !gulpfile.js/index.js
+!gulpfile.js/create-dir.js
 _leetcode-temp
 _config
 package-lock.json
