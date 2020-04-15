@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "log": "gulp git && gulp createDocument",
+    "name": "gulp createName",
+    "arrange": "gulp arrange"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "chalk": "^4.0.0",
+    "crypto-js": "^4.0.0",
+    "fs-extra": "^9.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "husky": "^3.0.9",
+    "shelljs": "^0.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "commitlint": "^8.3.5"
+  }
+}
