@@ -3,9 +3,9 @@
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
-
+   let arr = s.trimRight().split(' ');
+   return (arr[arr.length-1] || '').length;
 };
 
 // 解题思路
-// isEmpty 未完题目请勿删除此行
 // 我看到题目就想到应该是XXX处理，考查的是XXX知识点
