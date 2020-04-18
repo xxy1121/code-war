@@ -6,7 +6,7 @@ var maxSubArray = function(nums) {
     let nMax = nums[0]
     let endMax = nums[0]
     for(let i = 1 ; i < nums.length ; i++) {
-        nMax = nums[i] > nMax + nums[i] ?nums[i] : nMax + nums[i]
+        nMax = nums[i] > nMax + nums[i] ?µ˜nums[i] : nMax + nums[i]
         endMax = endMax > nMax ? endMax : nMax
     }
     return endMax
