@@ -1,4 +1,4 @@
-class Solution { 
+class Solution {
 public:
     int lengthOfLastWord(string s) {
         int res = 0;
