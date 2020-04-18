@@ -15,4 +15,4 @@ var lengthOfLastWord = function(s) {
 };
 
 // 解题思路
-// 通过split方法把字符串转成数组，注意要判断只有一个字母的情况
+// 通过split方法把字符串转成数组，注意要判断只有一个字母的情况.
