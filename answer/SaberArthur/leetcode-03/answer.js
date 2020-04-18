@@ -7,4 +7,4 @@ var replaceSpace = function(s) {
 };
 
 // 解题思路
-// replace全部替换
+// replace全部替换掉
