@@ -3,9 +3,17 @@
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
-
+    //解题思路：
+	// 1、判断单词的后空格
+	// 2、判断单词的前空格
+    var start=end=-1,t = s.split("");
+	for(let i = t.length; i--; i > -1 ){
+		if(end === -1 && t[i] !== ' ') end = i;
+		// no whitespace before the word
+		if(end !== -1 && i === 0) start = i - 1;
+		// some whitespace before the word
+		if(end !== -1 && t[i] === ' ') start = i;
+		if(start !== -1) break;
+	}
+	return (end - start);
 };
-
-// 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
