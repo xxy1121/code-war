@@ -2,9 +2,9 @@
 1.  53题 最大子序和 https://leetcode-cn.com/problems/maximum-subarray/
 2.  58题 最后一个单词的长度 https://leetcode-cn.com/problems/length-of-last-word/
 3.  05题 替换空格 https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
-4. 206题https://leetcode-cn.com/problems/reverse-linked-list/
-5. 92 题https://leetcode-cn.com/problems/reverse-linked-list-ii/
-6.24题https://leetcode-cn.com/problems/swap-nodes-in-pairs/
+4.  206题 https://leetcode-cn.com/problems/reverse-linked-list/
+5.  92题 https://leetcode-cn.com/problems/reverse-linked-list-ii/
+6.  24题 https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 欢迎挑战
 
 ### 打卡刷题策略
