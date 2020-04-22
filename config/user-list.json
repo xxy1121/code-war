@@ -1,47 +1,34 @@
 [
-    {
-        "name": "FU½",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "kael",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "LetterMumu",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "lyxsunner",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "moling3650",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "Q1173419450",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "zxl",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "Lilian97",
-        "active": true,
-        "clean": false
-    },
-    {
-        "name": "zhangdongming",
-        "active": true,
-        "clean": false
-    }
+  {
+    "_id": "3c71b880921b",
+    "name": "kael",
+    "active": true,
+    "email": "kael_yp@foxmail.com",
+    "nickname": "卡尔",
+    "clean": false
+  },
+  {
+    "_id": "c30aaad9791e",
+    "name": "Q1173419450",
+    "active": true,
+    "email": "1173419450@qq.com",
+    "nickname": "陈小渣",
+    "clean": false
+  },
+  {
+    "_id": "d59670fe59e8",
+    "name": "Lilian97",
+    "active": true,
+    "email": "13642147806@163.com",
+    "nickname": "小团子",
+    "clean": false
+  },
+  {
+    "_id": "d775d5b15f6f",
+    "name": "HouNaoshao",
+    "active": true,
+    "email": "hounaoshaoo@163.com",
+    "nickname": "后脑勺",
+    "clean": false
+  }
 ]

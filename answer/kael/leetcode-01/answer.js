@@ -3,9 +3,13 @@
  * @return {number}
  */
 var maxSubArray = function(nums) {
-
+    if (nums.length===1) return nums[0]
+    let list = [nums[0]]
+    for(let i = 1; i < nums.length; i++) {
+        list[i] = nums[i] > (list[i-1] + nums[i]) ? nums[i] : (list[i-1] + nums[i])
+    }
+    return Math.max(...list)
 };
 
 // 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
+// 新建一个数组list，用来存储对应位置为终点的最大子序和。最终返回此数组最大值
