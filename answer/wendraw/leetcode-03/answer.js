@@ -2,10 +2,13 @@
  * @param {string} s
  * @return {string}
  */
-var replaceSpace = function(s) {
-
+var replaceSpace = function (s) {
+  let res = "";
+  for (let i = 0; i < s.length; i++) {
+    res += s[i] === " " ? "%20" : s[i];
+  }
+  return res;
 };
 
 // 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
+// // 由于 JS 中的 String 是不可变的，所以直接遍历字符串，将字符拼接到 res 即可，遇到 " " 就拼接 "%20"
