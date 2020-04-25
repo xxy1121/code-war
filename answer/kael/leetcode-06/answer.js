@@ -19,8 +19,10 @@ var swapPairs = function(head) {
     let h = fNode // 存好第一项
     while(fNode&&sNode) { // 交换的两项都存在才执行
           preNode && (preNode.next = sNode) // preNode存在就调整指针
+
           sNode.next = fNode
           fNode.next = nextNode
+          
           preNode = fNode
           fNode = preNode.next
           sNode = fNode.next
