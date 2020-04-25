@@ -3,9 +3,15 @@
  * @return {string}
  */
 var replaceSpace = function(s) {
-
+    var res = [],origin = s.split(""),j=0;
+	for(let i = 0; i< origin.length; i ++){
+		if(origin[i] === ' '){
+			res[j++] = '%';
+			res[j++] = '2';
+			res[j++] = '0';
+		}else{
+			res[j++] = origin[i];
+		}
+	}
+	return res.join("");;
 };
-
-// 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
