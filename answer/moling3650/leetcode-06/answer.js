@@ -10,8 +10,21 @@
  * @return {ListNode}
  */
 var swapPairs = function(head) {
-
+    if (!head || !head.next) {
+        return head;
+    }
+    let cur = head
+    let prev = null
+    head = head.next
+    while (cur && cur.next) {
+        const third = cur.next.next
+        cur.next.next = cur
+        if (prev) {
+            prev.next = cur.next
+        }
+        cur.next = third
+        prev = cur
+        cur = third
+    }
+    return head
 };
-// 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
