@@ -1,6 +1,5 @@
 /**
- * @param {number[]} nums
- * @return {number}
+3.最大子序和
  */
 var maxSubArray = function (nums) {
     let ans = nums[0];
@@ -22,3 +21,5 @@ var maxSubArray = function (nums) {
 我看到题目就想到应该是数组循环遍历处理，考察的是数组累加/乘/除，然后从数组中找到最大值
 
 */
+
+

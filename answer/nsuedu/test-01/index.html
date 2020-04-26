@@ -11,6 +11,122 @@
 
 </body>
 <script>
+    class ListNode {
+        constructor(element) {
+            this.element = element;
+            this.next = null;
+        }
+    }
+
+    class LList {
+        constructor() {
+            this.length = 0;
+            this.head = new ListNode('head');
+            this.head.next = this.head;
+        }
+
+        find(item) {
+            let currNode = this.head;
+            while (currNode && currNode.element != item) {
+                currNode = currNode.next
+            }
+            return currNode;
+        }
+        insert(newElement, item) {
+            let newNode = new ListNode(newElement);
+            let current = this.find(item);
+            newNode.next = current.next;
+            current.next = newNode;
+            this.length++;
+        }
+        findPrevious(item) {
+            let currNode = this.head;
+            while (!(currNode.next == null) && currNode.next.element != item) {
+                currNode = currNode.next
+            }
+            return currNode
+        }
+
+        remove(item) {
+            let preNode = this.findPrevious(item)
+            if (!(preNode.next == null)) {
+                preNode.next = preNode.next.next;
+            }
+            this.length--;
+        }
+
+        display() {
+            let currNode = this.head;
+            let arr = [];
+            while (!(currNode.next == null) && !(currNode.next.element == 'head')) {
+                arr.push(currNode.next.element);
+                currNode = currNode.next;
+            }
+            const res = arr.join('->')
+            console.log(res);
+            return res;
+        }
+        displayFromEnd(item) {
+            let head = this.findPrevious(item)
+
+            var prev = null, curr = head
+            while (curr) {
+                // 用于临时存储 curr 后继节点
+                var next = curr.next
+                // 反转 curr 的后继指针
+                curr.next = prev
+                // 变更prev、curr 
+                // 待反转节点指向下一个节点 
+                prev = curr
+                curr = next
+            }
+            head = prev
+            console.log(head);
+
+            return head
+        }
+        size() {
+            console.log(this.length);
+
+            return this.length
+        }
+
+    }
+
+
+    let newList = new LList();
+    newList.insert(1, 'head');
+    newList.insert(2, 1);
+    newList.insert(3, 2);
+    newList.insert(4, 3);
+    newList.insert(5, 4);
+    // newList.insert('NULL', 5);
+
+
+    newList.displayFromEnd(5);
+    newList.display();
+
+
+
+
+    // var reverseList = function (head = '1->2->3->4->5->NULL') {
+    //     let numArr = [];
+    //     let notNumArr = [];
+    //     let arr = head.split('->').forEach((item) => {
+    //         if (!isNaN(Number(item))) {
+    //             numArr.push(Number(item))
+    //         } else {
+    //             notNumArr.push(item)
+    //         }
+    //     })
+    //     numArr.reverse();
+
+    //     let res = [...numArr, ...notNumArr]
+    //     return res.join('->');
+
+
+    // };
+    // reverseList()
 
 </script>
 

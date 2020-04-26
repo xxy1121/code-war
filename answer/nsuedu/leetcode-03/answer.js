@@ -2,7 +2,17 @@
  * @param {string} s
  * @return {string}
  */
+var replaceSpace1 = function (s) {
+    const res = encodeURI(s)
+    return s.includes('%') ? decodeURI(res) : res
+};
+
 var replaceSpace = function (s) {
+    const res = encodeURIComponent(s)
+    return s.includes('%') ? decodeURIComponent(res) : res
+};
+
+var replaceSpace3 = function (s) {
     return s.replace(/\s/g, '%20')
 };
 
