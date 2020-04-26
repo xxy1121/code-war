@@ -11,8 +11,18 @@
  * @return {ListNode}
  */
 var removeElements = function(head, val) {
-
+    var sentinel = { val: null, next: head }
+    var node = head
+    var prev = sentinel
+    while (node) {
+        if (node.val === val) {
+            node = node.next
+            prev.next.next = null
+            prev.next = node
+        } else {
+            node = node.next
+            prev = prev.next
+        }
+    }
+    return sentinel.next;
 };
-// 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
