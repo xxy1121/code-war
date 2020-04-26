@@ -35,3 +35,22 @@ var reverseBetween = function (head, m, n) {
     prev.next = cur;
     return head;
 };
+
+/*
+* haed: 1->2->3->4->5->null
+* reverseBetween(head, 2, 4)
+* 1. 先找到m
+* haed: 1->2->3->4->5->null
+*       p  c  n
+*         con
+* 2. 将[m, n]反转
+* haed: 1->2<-3<-4  5->null
+*       p con    c  n
+* 3. 将con的next指向next
+* haed: 1->2<-3<-4(cur)  
+*       p   ＼->5->null
+*               n
+* 4. 如果m等于1，prev就是空指针，可以直接返回cur，否则prev的next指向cur，返回head
+* haed: 1->4->3->2->5->null
+*       p  c    con n
+*/
