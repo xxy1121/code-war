@@ -11,9 +11,27 @@
  * @param {number} n
  * @return {ListNode}
  */
-var reverseBetween = function(head, m, n) {
+var reverseBetween = function (head, m, n) {
+    if (!head || !head.next) return head;
 
+    let prev = null;
+    let cur = head;
+    for (let i = 1; i < m; i++) {
+        prev = cur;
+        cur = cur.next;
+    }
+    let { next } = cur;
+    const con = cur;
+    for (let i = m; i < n; i++) {
+        const node = cur;
+        cur = next;
+        next = cur.next;
+        cur.next = node;
+    }
+    con.next = next;
+    if (m === 1) {
+        return cur;
+    }
+    prev.next = cur;
+    return head;
 };
-// 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
