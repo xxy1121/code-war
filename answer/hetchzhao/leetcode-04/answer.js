@@ -9,8 +9,19 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList = function(head) {
+var reverseList = function (head) {
+  var newHead = null;
 
+  while (head) {
+    var n = head;
+
+    head = head.next;
+
+    n.next = newHead;
+    newHead = n;
+  }
+
+  return newHead;
 };
 
 // 解题思路
