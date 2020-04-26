@@ -10,8 +10,26 @@
  * @return {ListNode}
  */
 var deleteDuplicates = function(head) {
+    if (!head || !head.next) return head;
 
+    var sentinel = { val: null, next: head }
+    var prev = sentinel
+    var node = head
+    while (node && node.next) {
+        if (node.val === node.next.val) {
+            while (node.next && node.val === node.next.val) {
+                var next = node.next.next
+                node.next.next = null
+                node.next = next
+            }
+            node = node.next
+            prev.next.next = null
+            prev.next = node
+        } else {
+            prev = prev.next
+            node = node.next
+        }
+    }
+
+    return sentinel.next
 };
-// 解题思路
-// isEmpty 未完题目请勿删除此行
-// 我看到题目就想到应该是XXX处理，考查的是XXX知识点
